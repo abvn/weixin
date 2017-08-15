@@ -1,0 +1,255 @@
+
+#heead{
+	width: 100%;
+	flex: 1;
+	/*height: 60px;*/
+	min-height: 60px;
+	display: flex;
+	flex-flow: column wrap;
+}
+#toushang{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+.toushang{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+}
+.xinhao{
+	width: 100%%;
+	height: 100%;
+	background-color: black;
+	display: flex;
+	align-items:center ;
+	font-size:10px;
+	color: #FFFFFF;
+}
+.quan{
+	width: 7px;
+	height: 7px;
+	border-radius:50%;
+	background-color: white;
+	margin: 1px;
+	}
+.yuan{
+	width: 5px;
+	height: 5px;
+	border-radius:50%;
+	/*background-color: white;*/
+	margin: 2px;
+	border:1px solid white
+}
+.shijiandian{
+	width: 100%;
+	background-color: #000000;
+	line-height:30px ;
+	font-size:15px;
+	color: #FFFFFF;
+	text-align:center;
+	font-weight:lighter;
+}
+.dianliang{
+	width: 100%;
+	background-color: #000000;
+	line-height:30px ;
+	font-size:15px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+}
+.dianliangkuang{
+	width: 25px;
+	height: 10px;
+	/*background-color: lawngreen;*/
+	border:1px solid white;
+	/*margin-right: 10px;*/
+	/*margin-top: 5px;*/
+}
+.dian{
+	width: 20px;
+	height: 10px;
+	background-color: lawngreen;
+}
+.liang{
+	width: 3px;
+	height: 5px;
+	background-color: white;
+}
+#touxia{
+	width: 100%;
+	height: 30px;
+	background-color: #212121;
+	display: flex;
+	justify-content: space-between;
+}
+/*.touxia{
+	width: 5%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 8px;
+	color: #FFFFFF;
+	line-height:30px;
+	font-weight:bold;
+	font-size:16px;
+}*/
+.weixin{
+	width: 90%;
+	display: flex;
+	font-size:17px;
+	color: #FFFFFF;
+	/*font-weight:bold;*/
+	justify-content:flex-start;
+	line-height:30px;
+	margin-left: 3px;
+}
+.sousuo{
+	width: 5%;
+	background: url(../img/control/搜索.svg) no-repeat;
+	height: 16px;
+	width: 16px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 7px;
+	/*display: flex;
+	justify-content: flex-end;*/
+}
+.jia{
+	width: 5%;
+	background: url(../img/material/加号.svg) no-repeat;
+	height: 20px;
+	width: 20px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+	position:relative;
+}
+.jiakuang{
+	width: 150px;
+	height: 220px;
+	position:absolute;
+	background-color: #212121;
+	border: 1px solid #000000;
+	right: 15px;
+	top: 25px;
+	display: none;
+	z-index: 500;
+}
+.jia1{
+	width: 100%;
+	height: 44px;
+	display: flex;
+	flex-flow: row;
+	border-bottom: #000000;
+}
+.jia1-zuo{
+	width: 60px;
+	height: 44px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jia1-zuo1{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/control/发起群聊.svg);
+	background-size: cover;
+}
+.jia1-zuo2{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/control/添加朋友.svg);
+	background-size: cover;
+}
+.jia1-zuo3{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/control/扫一扫.svg);
+	background-size: cover;
+}
+.jia1-zuo4{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/control/收付款.svg);
+	background-size: cover;
+}
+.jia1-zuo5{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/control/信封1.svg);
+	background-size: cover;
+}
+.jia1-you{
+	width: 140px;
+	height: 44px;
+}
+.jia1-you1{
+	width: 100px;
+	height: 44px;
+	color: #FFFFFF;
+	/*text-align:center;*/
+	line-height:42px;
+	font-family: "微软雅黑";
+	font-size: 17px;
+}
+/*.jia2{
+	width: 100%;
+	height: 60px;
+	border: 1px solid red;
+}*/
+.touxiazuo{
+	width: 3%;
+	height: 20px;
+	width: 20px;
+	background:url(../img/material/返回.svg);
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+}
+.xiangji{
+	width: 5%;
+	background: url(../img/photo/微信图片_20170731211552.png) no-repeat;
+	height: 22px;
+	width: 22px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.renwu{
+	width: 5%;
+	background: url(../img/人物.png) no-repeat;
+	height: 22px;
+	width: 22px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.xiangxi{
+	width: 5%;
+	background: url(../img/三个点.svg) no-repeat;
+	height: 22px;
+	width: 22px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.zi{
+	width: 5%;
+	height: 22px;
+	width: 30px;
+	background-size: contain;
+	align-items:center ;
+	margin-top: 5px;
+	margin-right: 5px;
+	color: #FFFFFF;
+	font-size: 6px;
+}
+

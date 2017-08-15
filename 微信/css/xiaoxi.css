@@ -1,0 +1,78 @@
+#zhong3{
+	width: 100%;
+	flex: 14;
+	/*height: 100%;
+	flex-grow: 1;*/
+	overflow-y: scroll;
+}
+#bu1{
+	height: 140px;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	display: flex;
+	border-bottom: 1px solid #BDBDBD;
+	justify-content: space-between;
+}
+#bu1-zuo{
+	height: 110px;
+	width: 73%;
+	display: flex;
+	justify-content: flex-start;
+}
+.bu1-zuo1{
+	height: 90%;
+	width: 90px;
+	display: flex;
+	justify-content: center;
+}
+.bu1-zuo1tou{
+	height: 70px;
+	width: 70px;
+	background-image: url(../img/photo/男孩-01.jpg);
+	background-size:cover;
+}
+.bu1-zuo2{
+	height: 90%;
+	width: 250px;
+}
+.bu1-zuo2shang{
+	height: 23px;
+	width: 100%;
+	color: #286090;
+}
+.bu1-zuo2zhong{
+	height: 23px;
+	width: 100%;
+}
+.bu1-zuo2zhong1{
+	height: 100%;
+	width: 23px;
+	background-image: url(../img/赞5.svg);
+	background-size:cover;
+}
+.bu1-zuo2xia{
+	height: 23px;
+	width: 100%;
+	color: #757575;
+}
+#bu1-you{
+	height: 110px;
+	width: 27%;
+}
+.bu1-you1{
+	height: 100px;
+	width: 100px;
+	background-image: url(../img/photo/20170519_591ebca3a8e91.jpg);
+	background-size:cover;
+}
+#bu2{
+	height: 60px;
+	width: 100%;
+	color: #212121;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 1px solid #BDBDBD;
+}

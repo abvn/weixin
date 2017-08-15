@@ -1,0 +1,162 @@
+#zhong2{
+	width: 100%;
+	flex: 14;
+	/*height: 100%;
+	flex-grow: 1;*/
+	overflow-y: scroll;
+	background-color: #FAFAFA;
+}
+#fenkuang1{
+	height: 110px;
+	width: 100%;
+	display: flex;
+	align-items:flex-end;
+}
+#kuang1{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	background-color: #FFFFFF;
+	justify-content:flex-start;
+}
+.kuang1-zuo{
+	width: 80px;
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.kuang1-zuo-touxiang{
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/photo/女孩-01.jpeg);
+	background-size: cover;
+}
+.kuang1-you{
+	width: 250px;
+	height: 100%;
+}
+.kuang1-you-shang{
+	height: 30px;
+	width: 100%;
+	display: flex;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.kuang1-you-shangzi{
+	height: 100%;
+	font-size: 20px;
+	line-height: 40px;
+}
+.kuang1-you-shangtu{
+	height: 18px;
+	width: 18px;
+	background-image: url(../img/女生.svg);
+	background-size: cover;
+	
+}
+.kuang1-you-xia{
+	height: 40px;
+	width: 100%;
+	color: #BDBDBD;
+}
+#fenkuang2{
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items:flex-end;
+}
+#kuang2{
+	height: 40px;
+	width: 100%;
+	display: flex;
+	background-color: #FFFFFF;
+	justify-content:flex-start;
+}
+.kuang2zi{
+	height: 40;
+	line-height: 40px;
+	margin-left: 10px;
+}
+#fenkuang3{
+	height: 200px;
+	width: 100%;
+	display: flex;
+	align-items:flex-end;
+}
+#kuang3{
+	height: 180px;
+	width: 100%;
+	/*display: flex;*/
+	background-color: #FFFFFF;
+	/*justify-content:flex-start;*/
+}
+.kuang3-1{
+	height: 49px;
+	width: 90%;
+	display: flex;
+	justify-content:flex-start;
+	margin-left: 10px;
+	border-bottom: 1px solid #BDBDBD;
+}
+.kuang3-1zuo{
+	height: 100%;
+	width: 80px;
+	font-size: 19px;
+	line-height: 50px;
+}
+.kuang3-1you{
+	height: 100%;
+	font-size: 17px;
+	line-height: 50px;
+	color: #BDBDBD;
+}
+.kuang3-2{
+	height: 78px;
+	width: 90%;
+	font-size: 17px;
+	line-height: 78px;
+	margin-left: 10px;
+	border-bottom: 1px solid #BDBDBD;
+}
+.kuang3-3{
+	height: 49px;
+	width: 90%;
+	font-size: 18px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+#fenkuang4{
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items:flex-end;
+	justify-content: space-around;
+}
+.kuang4{
+	height: 40px;
+	width: 80%;
+	background-color: green;
+	opacity:.9;
+	border-radius:5px;
+	text-decoration: none;
+}
+.kuang4-zi{
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 40px;
+	text-align:center;
+}
+.kuang5{
+	height: 40px;
+	width: 80%;
+	background-color: #FFFFFF;
+	border-radius:5px;
+}
+.kuang5-zi{
+	color: #000000;
+	font-size: 18px;
+	line-height: 40px;
+	text-align:center;
+}
+
